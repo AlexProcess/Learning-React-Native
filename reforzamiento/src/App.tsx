@@ -5,6 +5,7 @@ import { ObjetosLiterales } from "./Ts/ObjetosLiterales";
 import { Funciones } from "./Ts/Funciones";
 import { Contador } from "./components/Contador";
 import { ContadorConHook } from "./components/ContadorConHook";
+import { Login } from "./components/Login";
 
 function App() {
     return (
@@ -12,7 +13,8 @@ function App() {
             {/* <TiposBasicos /> */}
             {/* <ObjetosLiterales />
             <Funciones /> */}
-            <ContadorConHook />
+            {/* <ContadorConHook /> */}
+            <Login />
         </div>
     );
 }
